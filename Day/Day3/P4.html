@@ -3,22 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video tag</title>
+    <title>Video Tag</title>
 </head>
 <body>
-    <p>Video tags</p>
-    <!-- video format: mp4/webM/ogg -->
+    <p>Video Tag</p>
+    <!-- Video format: mp4/webM/ogg -->
     <video src="sample-5s-360p.mp4" controls>
-        Your browser is not supporting the video tag
+        Your browser does not support the video tag
     </video>
-    <video src="sample-5s-360p.webm">
-        <!-- w/o the controls the video appear but can't be able to play.
-          Javascript can start plaing the video. -->
-        Your browser is not supporting the video tag
+
+    <video src="sample-5s-360p.webm">Your browser does not support the video tag</video>
+    <!-- W/o controls the video appears but the user cannot play it. 
+     JavaScript can start playing the video -->
+
+    <!-- Width & Height  -->
+    <video src="sample-5s-360p.mp4" width="880" height="520" controls>
+        Your browser does not support the video tag
     </video>
-    <!-- width and height of the video -->
-    <video src="sample-5s-360p.webm" width="480" height="320" autoplay controls>
-        your browser is not supporting the video tag
+
+    <!-- autoplay -->
+    <video src="sample-5s-360p.mp4" width="880" height="520" autoplay controls>
+        Your browser does not support the video tag
+    </video>
+
+    <!-- muted -->
+    <video src="sample-5s-360p.mp4" width="880" height="520" autoplay muted controls>
+        Your browser does not support the video tag
+    </video>
+
+    <!-- loop -->
+     <video src="sample-5s-360p.mp4" width="880" height="520" loop autoplay controls>
+        Your browser does not support the video tag
+    </video>
+
+    <!-- poster -->
+    <video src="sample-5s-360p.mp4" width="880" height="520" poster="video.png" muted autoplay controls>
+        Your browser does not support the video tag
+    </video>
+
+    <!-- Preload -->
+    <!-- none: Don't preload; load only when user starts playing -->
+    <!-- metadata: Load only information like duration, dimensions etc -->
+    <!-- auto: Automatic: Browser load video immediately -->
+    <video src="sample-5s-360p.mp4" width="880" height="520" poster="video.png" muted 
+     preload="none" controls>
+        Your browser does not support the video tag
     </video>
 </body>
 </html>
