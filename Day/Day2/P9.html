@@ -3,17 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Krishna karthik kasula, Engineer | Computer Science Student  | Gamer">
+    <meta name="keywords" content="Portfolio of Krishna karthik kasula, Engineer | Computer Science Student  | Gamer | motivator | JavaScript | ReactJS">
+    <meta name="author" content="Krishna Karthik">
+    <meta name="robots" content="index,follow">
+ 
+    <meta property="og:title" content="Krishna kk portfolio">
+    <meta property="og:description" content="Portfolio of Krishna karthik kasula, Engineer | Computer Science Student  | Gamer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Krishna.com">
+    <meta property="og:image" content="https://krishna.com/img/profile.jpg">
+ 
+    <meta name="twitter:card" content="summary_portfolio">
     <title>Krishna karthik kasula Portfolio</title>
 </head>
 <body>
-
+    <a href="#main-content">skip to main content</a>
     <!-- Header contains the site title and navigation bar -->
     <header>
         <h1>Krishna karthik kasula</h1>
         <p>Engineer | Computer Science Student  | Gamer</p>
 
         <!-- Navigation bar -->
-        <nav>
+        <nav aria-label="">
             <ul>
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About Me</a></li>
@@ -25,16 +37,20 @@
     </header>
 
     <!-- Main content of the portfolio -->
-    <main>
+    <main id="main-content">
 
         <!-- Hero section -->
         <section id="hero">
             <h2>Hero Section</h2>
-            <p>Hello, this is Krishna.</p>
+            <p>Hello, this is <strong>Krishna</strong>.</p>
             <p>
-                I am studying Computer Science engineering, present working on the 
+                I am studying <em>Computer Science engineering</em>, present working on the 
                 full stack development with react. At my free time, I am a gamer. 
             </p>
+            <figure>
+                <img src="profile.jpg" alt="profile picture" width="100px" height="200px">
+                <figcaption>profile picture of Krishna</figcaption>
+            </figure>
         </section>
 
         <!-- About Me section -->
@@ -48,6 +64,10 @@
                 </p>
                 <p>
                     Interested in new skills and AI programming and also a partime gamer.
+                </p>
+                <p>
+                    I belive in <mark>truth</mark>, <strong>practical</strong>
+                    my goal is to lead a peaceful life, with clarity what to do &amp; brave.
                 </p>
             </article>
 
@@ -80,6 +100,34 @@
                     <li>Gaming </li>
                 </ul>
             </article>
+            <article>
+                <h3>Skill Summary Table</h3>
+                <table border="1">
+                    <caption>Tech experience overview</caption>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Tech</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Frontend</td>
+                            <td>JS, ReactJS, NextJS, Tailwind, AngularJS</td>
+                            <td>Advanced</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Backend</td>
+                            <td>NodeJS, ExpressJS, Spring Boot</td>
+                            <td>Advanced</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+ 
         </section>
 
         <!-- Projects section -->
@@ -100,6 +148,14 @@
             </article>
         </section>
 
+        <section id="media">
+            <head>Media</head>
+            <article>
+                <h3>Introduction of krishna</h3>
+                <video src="sample-5s-360p.mp4" width="350px" height="250px" aria-label="Portfolio Introduction"> </video>
+            </article>
+
+        </section>
         <!-- Contact section -->
         <section id="contact">
             <h2>Contact</h2>
