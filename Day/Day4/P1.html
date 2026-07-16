@@ -3,52 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description" content="Portfolio of rakesh K R: Full Stack Developer | Corporate Trainer | Educator">
-    <meta name="keywords" content="Portfolio of rakesh K R: Full Stack Developer | Corporate Trainer | Educator, nodejs springboot.">
+    <!-- New -->
+    <meta name="description" content="Portfolio of Rakesh K R, Full Stack Developer, Corporate Trainer, Educator">
+    <meta name="keywords" content="Portfolio of Rakesh K R, Full Stack Developer, Corporate Trainer, Educator, NodeJS, Spring boot, ReactJS">
     <meta name="author" content="Rakesh K R">
     <meta name="robots" content="index,follow">
 
-    <meta property="og:title" content="Rakesh K R portfolio">
-    <meta property="og:description" content="Portfolio of Rakesh K R: Full Stack Developer | Corporate Trainer | Educator">
+    <meta property="og:title" content="Rakesh KR portfolio">
+    <meta property="og:description" content="Portfolio of Rakesh K R, Full Stack Developer, Corporate Trainer, Educator">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://rakesh.com">
     <meta property="og:image" content="https://rakesh.com/img/profile.jpg">
 
     <meta name="twitter:card" content="summary_portfolio">
-    <!-- end of new tags -->
+    <!-- End of new tags -->
     <title>Rakesh K R Portfolio</title>
 </head>
 <body>
-    <a href="#"></a>
+    <!-- new -->
+    <a href="#main-content">Skip to main content</a>
     <!-- Header contains the site title and navigation bar -->
     <header>
         <h1>Rakesh K R</h1>
         <p>Full Stack Developer | Corporate Trainer | Educator</p>
 
-        <!-- Navigation bar -->
-        <nav>
+        <!-- Navigation bar: new -->
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <!-- new -->
+                <li><a href="#media">Media</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content of the portfolio -->
-    <main>
+    <main id="main-content">
 
         <!-- Hero section -->
         <section id="hero">
             <h2>Hero Section</h2>
-            <p>Hello, I am Rakesh K R.</p>
+            <p>Hello, I am <strong>Rakesh K R</strong>.</p>
             <p>
-                I build web applications, teach modern web development,
+                I build <em>web applications</em>, teach modern web development,
                 and create learning experiences for students and professionals.
             </p>
+            <figure>
+                <img src="profile.jpg" alt="Profile Picture" width="100px" height="200px">
+                <figcaption>Profile picture of Rakesh K R</figcaption>
+            </figure>
         </section>
 
         <!-- About Me section -->
@@ -63,6 +70,10 @@
                 <p>
                     I enjoy building practical applications, teaching job-oriented skills,
                     and helping learners understand concepts in a structured way.
+                </p>
+                <p>
+                    I believe in <mark>clear teaching</mark>, <strong>Practical learning</strong>
+                    My goal is to help learners grow step by step, with clarity &amp; Confidence.
                 </p>
             </article>
 
@@ -110,6 +121,34 @@
                     <li>Git and GitHub</li>
                     <li>Nginx</li>
                 </ul>
+            </article>
+
+            <article>
+                <h3>Skill Summary Table</h3>
+                <table border="1">
+                    <caption>Tech experience overview</caption>
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Tech</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Frontend</td>
+                            <td>JS, ReactJS, NextJS, Tailwind, AngularJS</td>
+                            <td>Advanced</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Backend</td>
+                            <td>NodeJS, ExpressJS, Spring Boot</td>
+                            <td>Advanced</td>
+                        </tr>
+                    </tbody>
+                </table>
             </article>
         </section>
 
@@ -159,6 +198,14 @@
             </article>
         </section>
 
+        <section id="media">
+            <h2>Media</h2>
+            <article>
+                <h3>Introduction of Rakesh K R</h3>
+                <video src="sample-5s-360p.mp4" width="350px" height="250px" aria-label="Portfolio Introduction"controls></video>
+            </article>
+        </section>
+        
         <!-- Contact section -->
         <section id="contact">
             <h2>Contact</h2>
