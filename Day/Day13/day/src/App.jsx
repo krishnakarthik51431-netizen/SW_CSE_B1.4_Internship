@@ -1,36 +1,6 @@
-import Button from './components/FunctionalComponent'
-import { LeftArrow,RightArrow } from "./components/FunctionalComponentTwo";
-const name = "Amay";
-const isLoggedIn = false;
+// Named export
 
-function App() {
- 
-  return (
-    // React Fragments
-    <>
-      {/* JSX Rule 1: Return one parent element */}
-      <h1>Hello</h1>
-      <p>Hello again</p>
+export const LeftArrow = () => <span>⬅️</span> 
+export const RightArrow = () => <span>➡️</span>
 
-      {/* JSX Rule 2: Every tag must be closed properly */}
-      <p>Error</p>
-      <input type="text" />
-
-      {/* JSX Rule 3: use camelCase for attributes */}
-      <button onClick onSubmit>Click</button>
-
-      {/* JSX Rule 4: Embedding JavaScript with curly braces */}
-      <h3>Hello, {name}</h3>
-
-      {/* JSX Rule 5: use expressions, not statements */}
-      <p>{isLoggedIn ? "Welcome back" : "Please Login"}</p>
-
-      <Button />
-      <LeftArrow />
-      <RightArrow />
-    </>
-    
-  )
-}
-
-export default App
+// windows + > : emojis
