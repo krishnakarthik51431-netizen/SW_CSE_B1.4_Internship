@@ -7,8 +7,7 @@ import UserListHook from "./components/HooksTwo";
 import ThemeProviderDemo from "./components/HooksThree";
 import SimpleNameForm from "./components/FormOne";
 import SignupForm from "./components/FormTwo";
-
-
+import ValidatedForm from "./components/FormThree";
 function App() {
   
   return (
@@ -21,7 +20,8 @@ function App() {
       {/* <UserListHook/> */}
       {/* <ThemeProviderDemo /> */}
       {/* <SimpleNameForm /> */}
-      <SignupForm />
+      {/* <SignupForm /> */}
+      <ValidatedForm/>
     </>
   )
 }
