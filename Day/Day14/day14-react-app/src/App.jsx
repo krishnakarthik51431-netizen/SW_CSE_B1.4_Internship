@@ -3,16 +3,18 @@ import SimpleList from "./components/ListOne";
 import UserList from "./components/ListTwo";
 import ProductListDemo from "./components/ListThree";
 import CounterHook from "./components/HooksOne";
+import UserListHook from "./components/HooksTwo";
 
 function App() {
   
   return (
     <>
-      <SimpleList />
+      {/* <SimpleList />
       <UserList />
       <ProductListDemo />
 
-      <CounterHook/>
+      <CounterHook/> */}
+      <UserListHook/>
     </>
   )
 }
