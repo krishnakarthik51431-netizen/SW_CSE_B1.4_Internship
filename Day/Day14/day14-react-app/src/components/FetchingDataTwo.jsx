@@ -16,7 +16,7 @@ function GitHubProfile({ username }) {
     setData(null);
 
     // Fetch GitHub user profile
-    fetch(`https://api.github.com/users/NirDiamant`)
+    fetch(`https://api.github.com/users/krishnakarthik51431-netizen`)
       .then((res) => {
         if (!res.ok) {
           throw new Error("User not found");
