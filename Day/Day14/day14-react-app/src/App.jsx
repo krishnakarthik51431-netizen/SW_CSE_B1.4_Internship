@@ -5,6 +5,8 @@ import ProductListDemo from "./components/ListThree";
 import CounterHook from "./components/HooksOne";
 import UserListHook from "./components/HooksTwo";
 import ThemeProviderDemo from "./components/HooksThree";
+import SimpleNameForm from "./components/FormOne";
+
 function App() {
   
   return (
@@ -15,7 +17,8 @@ function App() {
 
       <CounterHook/> */}
       {/* <UserListHook/> */}
-      <ThemeProviderDemo />
+      {/* <ThemeProviderDemo /> */}
+      <SimpleNameForm />
     </>
   )
 }
