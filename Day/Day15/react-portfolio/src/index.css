@@ -267,8 +267,8 @@ border-color: var(--accent);
 
 .btn-secondary {
 background: transparent;
-color: var(--white);
-border-color: var(--white);
+color: var(--blue);
+border-color: var(--blue);
 }
 
 .btn-secondary:hover {
